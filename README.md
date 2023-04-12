@@ -22,12 +22,20 @@ Your homework is to answer the following questions, writing the SQL necessary to
 Hints: `GROUP BY` will be useful for several of these queries, as will `ORDER BY`. Queries that look for "the most" don't need to yield a single row--it is acceptable to provide an response that is ordered to show "the most" as the first row in the response.
 
 * (question-1.sql) Show the customer's full name, Invoice ID, Date of the invoice and billing country of customers who are from Brazil.
+
 * (question-2.sql) Show the sales agent's full name and invoices associated with each sales agent.
+
 * (question-3.sql) Provide a query that includes the purchased track name AND artist name with each invoice line item.
+
 * (question-4.sql) Which sales agent made the most in sales in 2010?
+
 * (question-5.sql) What was the most purchased track of 2013?
 
 ### Extra credit
 
 * (question-6.sql) Find tracks (id, name and composer) that are part of a line in an invoice. (In other words, we're finding all the tracks that have actually been bought at some point--if they're not in an invoice somewhere in the database, they've never been purchased.) (1pt)
+
+
 * (question-7.sql) Find tracks (id, name, and composer) that have never been purchased (that is, they aren't part of a line item in an invoice). Note that this is the inverse of the query in Question 6--we often want to "flip" a business question from "all" to "none" like this, so practicing it is useful. (1pt)
+
+
